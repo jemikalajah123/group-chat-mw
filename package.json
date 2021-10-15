@@ -1,0 +1,43 @@
+{
+  "name": "group-chat-mw",
+  "version": "1.0.0",
+  "description": "group chat backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemikalajah123/group-chat-mw.git"
+  },
+  "author": "philip jemikalajah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemikalajah123/group-chat-mw/issues"
+  },
+  "homepage": "https://github.com/jemikalajah123/group-chat-mw#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "fs-extra": "^10.0.0",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.6",
+    "mongoose-paginate-v2": "^1.4.2",
+    "nodemailer": "^6.6.3",
+    "request": "^2.88.2",
+    "socket.io": "^4.2.0",
+    "util": "^0.12.4",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
