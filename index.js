@@ -9,7 +9,7 @@ var http = require('http').Server(app)
 var io = require('socket.io')(http)
 
 app.use(cors({
-    origin:['*', '']
+    origin:['*', 'https://hackathon-mw.herokuapp.com']
 }));
 
 io.on('connection', () => {
