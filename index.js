@@ -10,7 +10,11 @@ var io = require('socket.io')(http)
 
 app.use(cors({
     origin:['*','https://okechat.netlify.app/', 'https://hackathon-mw.herokuapp.com'],
-    "Access-Control-Allow-Origin": "*"
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": true,
+    'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,OPTIONS',
+    "Access-Control-Allow-Headers": 'Origin,X-Requested-With,Content-Type,Accept,content-type,application/json',
+
 }));
 
 io.on('connection', () => {
